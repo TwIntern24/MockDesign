@@ -262,7 +262,7 @@ public:
         QTableWidgetItem *___qtablewidgetitem17 = tableWidget_2->item(0, 6);
         ___qtablewidgetitem17->setText(QApplication::translate("MainWindow", "24/11/2025", Q_NULLPTR));
         QTableWidgetItem *___qtablewidgetitem18 = tableWidget_2->item(1, 0);
-        ___qtablewidgetitem18->setText(QApplication::translate("MainWindow", "DF", Q_NULLPTR));
+        ___qtablewidgetitem18->setText(QApplication::translate("MainWindow", "MK5", Q_NULLPTR));
         QTableWidgetItem *___qtablewidgetitem19 = tableWidget_2->item(1, 1);
         ___qtablewidgetitem19->setText(QApplication::translate("MainWindow", "510163", Q_NULLPTR));
         QTableWidgetItem *___qtablewidgetitem20 = tableWidget_2->item(1, 2);
