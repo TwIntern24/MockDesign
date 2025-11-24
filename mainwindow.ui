@@ -17,10 +17,10 @@
    <widget class="QComboBox" name="comboBox">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>50</y>
-      <width>141</width>
-      <height>22</height>
+      <x>261</x>
+      <y>51</y>
+      <width>115</width>
+      <height>20</height>
      </rect>
     </property>
     <item>
@@ -42,10 +42,10 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>130</x>
+      <x>150</x>
       <y>50</y>
-      <width>101</width>
-      <height>20</height>
+      <width>74</width>
+      <height>16</height>
      </rect>
     </property>
     <property name="font">
@@ -61,10 +61,10 @@
    <widget class="QSpinBox" name="spinBox">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>120</y>
-      <width>42</width>
-      <height>22</height>
+      <x>261</x>
+      <y>77</y>
+      <width>37</width>
+      <height>20</height>
      </rect>
     </property>
    </widget>
@@ -72,9 +72,9 @@
     <property name="geometry">
      <rect>
       <x>140</x>
-      <y>120</y>
-      <width>101</width>
-      <height>20</height>
+      <y>80</y>
+      <width>103</width>
+      <height>16</height>
      </rect>
     </property>
     <property name="font">
@@ -90,10 +90,10 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>180</y>
-      <width>101</width>
-      <height>20</height>
+      <x>170</x>
+      <y>100</y>
+      <width>59</width>
+      <height>16</height>
      </rect>
     </property>
     <property name="font">
@@ -109,10 +109,10 @@
    <widget class="QComboBox" name="comboBox_2">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>180</y>
-      <width>141</width>
-      <height>22</height>
+      <x>261</x>
+      <y>103</y>
+      <width>53</width>
+      <height>20</height>
      </rect>
     </property>
     <item>
@@ -134,10 +134,10 @@
    <widget class="QDateEdit" name="dateEdit">
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>240</y>
-      <width>110</width>
-      <height>22</height>
+      <x>261</x>
+      <y>129</y>
+      <width>81</width>
+      <height>20</height>
      </rect>
     </property>
     <property name="calendarPopup">
@@ -147,10 +147,10 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>240</y>
-      <width>101</width>
-      <height>20</height>
+      <x>190</x>
+      <y>130</y>
+      <width>27</width>
+      <height>16</height>
      </rect>
     </property>
     <property name="font">
@@ -166,8 +166,8 @@
    <widget class="QTableWidget" name="tableWidget">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>320</y>
+      <x>150</x>
+      <y>190</y>
       <width>256</width>
       <height>192</height>
      </rect>
@@ -177,6 +177,236 @@
       <string>MK5</string>
      </property>
     </column>
+   </widget>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>230</y>
+      <width>91</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>main connector</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>270</y>
+      <width>121</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Arm-gripper interface </string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_3">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>310</y>
+      <width>91</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>DM housing</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_4">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>350</y>
+      <width>111</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Interface plate</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>400</y>
+      <width>801</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>Robot Name</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Material Number</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Item Name</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Storage Location</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Quantity</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Requester</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Date</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>MK5</string>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>601761</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>Pneumatikblock</string>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="text">
+      <string>01-07A</string>
+     </property>
+    </item>
+    <item row="0" column="4">
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item row="0" column="5">
+     <property name="text">
+      <string>John</string>
+     </property>
+    </item>
+    <item row="0" column="6">
+     <property name="text">
+      <string>24/11/2025</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>DF</string>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>510163</string>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string>Adaptercable Z-stroke NXT</string>
+     </property>
+    </item>
+    <item row="1" column="3">
+     <property name="text">
+      <string>B3P</string>
+     </property>
+    </item>
+    <item row="1" column="4">
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item row="1" column="5">
+     <property name="text">
+      <string>John</string>
+     </property>
+    </item>
+    <item row="1" column="6">
+     <property name="text">
+      <string>24/11/2025</string>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>MK5</string>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string>400408</string>
+     </property>
+    </item>
+    <item row="2" column="2">
+     <property name="text">
+      <string>NT interface PCB</string>
+     </property>
+    </item>
+    <item row="2" column="3">
+     <property name="text">
+      <string>N/A</string>
+     </property>
+    </item>
+    <item row="2" column="4">
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item row="2" column="5">
+     <property name="text">
+      <string>John</string>
+     </property>
+    </item>
+    <item row="2" column="6">
+     <property name="text">
+      <string>24/11/2025</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>600</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Submit</string>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
